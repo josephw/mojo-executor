@@ -88,7 +88,6 @@ public class MojoExecutor {
                 int pos = goal.indexOf('#');
                 executionId = goal.substring(pos + 1);
                 goal = goal.substring(0, pos);
-                System.out.println("Executing goal " + goal + " with execution ID " + executionId);
             }
 
             // You'd think we could just add the configuration to the mojo execution, but then it merges with the plugin
